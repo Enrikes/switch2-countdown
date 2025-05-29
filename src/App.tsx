@@ -1,8 +1,12 @@
-import { useState } from 'react';
 import './App.css';
+import Countdown from './components/countdown';
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <Countdown />
+    </>
+  );
 }
 
 export default App;
