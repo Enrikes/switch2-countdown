@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import styles from './countdown.module.css';
 
 function Countdown() {
   const [clock, setClock] = useState(``);
@@ -38,7 +39,7 @@ function Countdown() {
 
   return (
     <>
-      <div className='container'>
+      <div className={styles.container}>
         <p>Current Time: {clock}</p>
         <h1>Switch 2 Releases in:</h1>
         <p>{remainingTime}</p>
